@@ -8,10 +8,16 @@
 */
 
 //tu código va aquí vvv
+
  function tablademultiplicar(num){
-
+     for (i=0; i<=10; i++)
+     {
+         result = num * i;
+         console.log("La multiplicacion de ", num, "x", i, "es", result);
+     }
  }
-
+ //tablademultiplicar("abd");
+ tablademultiplicar(6);
 //tu código va aquí ^^^
 
 //eof

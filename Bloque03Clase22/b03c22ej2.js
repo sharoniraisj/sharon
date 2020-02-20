@@ -11,6 +11,23 @@ let b;
 let c;
 
 //tu código va aquí vvv
+b = a;
+c = a;
+b[2] = "Change";
+console.log("Arreglo inicial:"+a);
+//console.log(b);
+
+
+function copiar(copiaDelArregloA){
+    for(let i=0; i<copiaDelArregloA.length; i++){
+      
+          copiaDelArregloA[i]+="HOLA";
+      }
+      console.log("Arreglo C modificado:"+copiaDelArregloA);
+    }
+    
+
+copiar(c);
 
 //tu código va aquí ^^^
 

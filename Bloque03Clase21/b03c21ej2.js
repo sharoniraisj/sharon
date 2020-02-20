@@ -8,6 +8,32 @@
 
 //tu código va aquí vvv
 
+function factorial (n)
+{
+    n = Number(n);
+    if(n<0 ||n>10 || isNaN(n))
+    {
+        console.log("Ingresa un numero valido (0 al 10)");
+        return;
+    }
+
+    if (n===0){return 1;}
+
+   let f = 1;// acumulador empieza en 1 para que no afecte al resultado
+    for(n; n>0; n--)
+    {
+    f = f * (n);
+    console.log(f);
+    
+    }
+
+    return f;
+    
+}
+
+factorial(0);
+
+
 //tu código va aquí ^^^
 
 //eof

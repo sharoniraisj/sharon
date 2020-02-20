@@ -8,10 +8,9 @@
 
 //concatena el contenido de este arreglo en un string para crear la letra de una canción
 const rola = ["we","will","we","will","rock","you"];
+const lyrics = rola.join();
+console.log(lyrics);
 
-for (i=0; i<rola.length; i++){
-    const lyrics =  rola[i] +;
-}
 
 //inicializa el siguiente arreglo con valores null
 const basura = [3456, 5674567, 564784567, 97695, 3456345, 685468, 452356];
