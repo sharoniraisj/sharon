@@ -8,6 +8,17 @@
 */
 
 //tu código va aquí vvv
+let sumaAnonima = function(a,b){
+    let sum = a + b;
+    console.log(sum);
+    return sum;
+}
+
+sumaAnonima(5,6);
+
+let copiaEnArreglo = [sumaAnonima];
+
+copiaEnArreglo[0](5,9);
 
 //tu código va aquí ^^^
 

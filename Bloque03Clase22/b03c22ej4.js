@@ -8,9 +8,9 @@
 //tu código va aquí vvv
 
 function printArray() {
-
+//Al usar "var", c fue declarado al inicio de su scope
     if(true) {
-        let c = ["hola", "soy", "un", "ejercicio", "sobre", "hoisting"];
+        var c = ["hola", "soy", "un", "ejercicio", "sobre", "hoisting"];
     }
 
     for(let i of c) {
