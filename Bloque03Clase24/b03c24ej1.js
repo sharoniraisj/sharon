@@ -8,6 +8,16 @@
 */
 
 //tu código va aquí vvv
+name = {firstname: "Sharon", lastname:"Jimenez"};
+address = {street: "Goya", number:"143", postalcode:"45020", colonia:"Real Vallarta"};
+career= {school:"UV", city:"Xalapa", prof:"Electronica", graduate_date:"2018"};
+
+yo = {nombre:name, direccion:address, carrera:career};
+
+//console.log(name);
+//console.log(address);
+//console.log(career);
+console.log(yo);
 
 //tu código va aquí ^^^
 

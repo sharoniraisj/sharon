@@ -18,7 +18,9 @@ sumaAnonima(5,6);
 
 let copiaEnArreglo = [sumaAnonima];
 
+
 copiaEnArreglo[0](5,9);
+copiaEnArreglo[0];
 
 //tu código va aquí ^^^
 
